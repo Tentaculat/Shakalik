@@ -1,0 +1,41 @@
+uses crt;
+const
+   do1=262;     do2=523;
+   dod1=277;    dod2=554;
+   re1=294;     re2=587;
+   red1=311;    red2=622;
+   mi1=330;     mi2=659;
+   fa1=349;     fa2=699;
+   fad1=370;    fad2=740;
+   sol1=392;    sol2=784;
+   sold1=415;   sold2=830;
+   la1=440;     la2=880;
+   lad1=466;    lad2=932;
+   si1=494;     si2=988;
+begin
+ sound(mi2);
+ delay(200);
+ nosound;
+ delay(50);
+ sound(mi2);
+ delay(200);
+ nosound;
+ delay(50);
+ sound(mi2);
+ delay(200);
+ sound(do2);
+ delay(700);
+ sound(re2);
+ delay(200);
+ nosound;
+ delay(50);
+ sound(re2);
+ delay(200);
+ nosound;
+ delay(50);
+ sound(re2);
+ delay(200);
+ sound(si1);
+ delay(700);
+ nosound;
+end.
